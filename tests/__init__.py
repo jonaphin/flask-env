@@ -4,7 +4,7 @@ import unittest
 
 from flask import Flask
 
-from flask_environments import Environments
+from flask_env import Environments
 
 
 class FlaskEnvironmentsTestCase(unittest.TestCase):
