@@ -7,18 +7,14 @@ Environment tools and configuration for Flask applications
 Resources
 `````````
 
-- `Documentation <http://packages.python.org/Flask-Envs/>`_
-- `Issue Tracker <http://github.com/mattupstate/flask-environments/issues>`_
-- `Code <http://github.com/mattupstate/flask-environments/>`_
-- `Development Version
-  <http://github.com/mattupstate/flask-environments/zipball/develop#egg=Flask-RQ-dev>`_
+- `Code & Documentation <http://github.com/jonaphin/flask-envs/>`_
 
 """
 from setuptools import setup
 
 setup(
     name='Flask-Envs',
-    version='0.1',
+    version='0.1.1',
     url='http://packages.python.org/flask-envs/',
     license='MIT',
     author='Jonathan Lancar',
