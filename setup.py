@@ -1,17 +1,17 @@
 """
-Flask-Env
+Flask-Envs
 ---------
 
 Environment tools and configuration for Flask applications.
 This package is built on top of its original "Flask Environments" package
 which is not maintained any longer.
-Flask-Env was built to make it easy for developers to use Flask Environments
+Flask-Envs was built to make it easy for developers to use Flask Environments
 in Python 3
 
 Resources
 `````````
 
-- `Documentation <http://packages.python.org/Flask-Env/>`_
+- `Documentation <http://packages.python.org/Flask-Envs/>`_
 - `Issue Tracker <http://github.com/mattupstate/flask-environments/issues>`_
 - `Code <http://github.com/mattupstate/flask-environments/>`_
 - `Development Version
@@ -21,7 +21,7 @@ Resources
 from setuptools import setup
 
 setup(
-    name='Flask-Env',
+    name='Flask-Envs',
     version='0.1',
     url='http://packages.python.org/flask-env/',
     license='MIT',
@@ -30,7 +30,7 @@ setup(
     orginal_author="Matthew Wright",
     description='Environment tools and configuration for Flask applications',
     long_description=__doc__,
-    py_modules=['flask_env'],
+    py_modules=['flask_envs'],
     zip_safe=False,
     platforms='any',
     install_requires=['Flask', 'pyyaml'],

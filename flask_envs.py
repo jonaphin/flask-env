@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-    flask env, based on flask_environments
+    flask envs, based on flask_environments
     ~~~~~~~~~~~~~~~~~~
 
     Environment tools and configuration for Flask applications
