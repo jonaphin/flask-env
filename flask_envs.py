@@ -27,7 +27,7 @@ class Environments(object):
             self.init_app(app)
 
     def init_app(self, app):
-        app.config['ENVIORNMENT'] = self.env
+        app.config['ENVIRONMENT'] = self.env
 
         if app.extensions is None:
             app.extensions = {}
@@ -56,7 +56,7 @@ class Environments(object):
 
     def from_yaml(self, path):
         with open(path) as f:
-            c = yaml.load(f)
+            c = yaml.load(f, Loader=yaml.FullLoader)
 
         for name in self._possible_names():
             try:
@@ -71,4 +71,4 @@ class Environments(object):
                 app.config[key] = c[key]
 
     def _possible_names(self):
-        return (self.env, self.env.capitalize(), self.env.lower())
+        return [self.env, self.env.capitalize(), self.env.lower()]
