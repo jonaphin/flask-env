@@ -72,7 +72,7 @@ configuration:
 Only the values for the specified environment will be applied.
 
 Flask-Envs assumes an operating system environment variable
-named <span class="title-ref">`FLASK\_ENV`</span> will be set to one of
+named <span class="title-ref">`FLASK_ENV`</span> will be set to one of
 your possible environments. If it is not set, it will default to
 <span class="title-ref">`DEVELOPMENT`</span>.
 
