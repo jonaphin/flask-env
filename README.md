@@ -72,11 +72,11 @@ configuration:
 Only the values for the specified environment will be applied.
 
 Flask-Envs assumes an operating system environment variable
-named <span class="title-ref">FLASK\_ENV</span> will be set to one of
+named <span class="title-ref">`FLASK\_ENV`</span> will be set to one of
 your possible environments. If it is not set, it will default to
-<span class="title-ref">DEVELOPMENT</span>.
+<span class="title-ref">`DEVELOPMENT`</span>.
 
-To change the default environment or the environment varibale name pass
+To change the default environment or the environment variable name pass
 the <span class="title-ref">var\_name</span> or
 <span class="title-ref">default\_env</span> parameters to the
 Environments constructor like so:
@@ -86,3 +86,5 @@ Environments constructor like so:
 
     app = Flask(__name__)
     env = Environments(self.app, var_name='CUSTOM_VAR_NAME', default_env='CUSTOM_ENV')
+    
+ where `var_name` defaults to `FLASK_ENV` and `default_env` defaults to `DEVELOPMENT`
